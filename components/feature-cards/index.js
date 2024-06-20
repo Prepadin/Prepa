@@ -4,7 +4,7 @@ import cn from 'clsx'
 import { Card } from 'components/card'
 import { useScroll } from 'hooks/use-scroll'
 import { clamp, mapRange } from 'lib/maths'
-//import dynamic from 'next/dynamic'
+
 import { useRef, useState } from 'react'
 import { useWindowSize } from 'react-use'
 
