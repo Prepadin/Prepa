@@ -41,10 +41,10 @@ const WebGL = dynamic(
 //     )
 // }
 
-const AppearTitle = dynamic(
-    () => import('components/appear-title').then((mod) => mod.AppearTitle),
-    { ssr: false }
-)
+// const AppearTitle = dynamic(
+//     () => import('components/appear-title').then((mod) => mod.AppearTitle),
+//     { ssr: false }
+// )
 
 const Parallax = dynamic(
     () => import('components/parallax').then((mod) => mod.Parallax),
@@ -189,7 +189,8 @@ export default function About() {
                 <section className={s.why} data-lenis-scroll-snap-align="start">
                     <div className="layout-grid">
                         <h2 className={cn(s.sticky, 'h2')}>
-                            <AppearTitle>Who we are</AppearTitle>
+                            {/* <AppearTitle>Who we are</AppearTitle> */}
+                            Who we are
                         </h2>
                         <aside className={s.features} ref={whyRectRef}>
                             <div className={s.feature}>
@@ -230,7 +231,8 @@ export default function About() {
           <div className={s.highlight} data-lenis-scroll-snap-align="start">
             <Parallax speed={-0.5}>
               <p className="h2">
-                <AppearTitle>We love what we do</AppearTitle>
+                {/* <AppearTitle>We love what we do</AppearTitle> */}
+                We love what we do
               </p>
             </Parallax>
           </div>
