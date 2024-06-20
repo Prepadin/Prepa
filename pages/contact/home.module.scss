@@ -1,0 +1,93 @@
+.canvaso {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  right: 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100vw;
+    width: 200vw;
+    background: radial-gradient(var(--pink), var(--pink-transparent) 70%);
+    // background: linear-gradient(to top, var(--pink), var(--pink-transparent));
+    transform: translateX(-50%) translateY(50vh);
+    opacity: 0.5;
+  }
+}
+
+
+.canvas {
+ // background-color: rgb(138, 151, 211);
+ margin-top: 25%;
+ height: 30vh;
+}
+
+.conta{
+  overflow: hidden;
+}
+
+.redos {
+  color: rgb(131, 0, 13);
+}
+
+
+.vision {
+  font-size: 5vw;
+ 
+}
+
+.vision2{
+  display: flex;
+  white-space: nowrap;
+}
+
+.containerweb {
+  display: flex;
+  
+  gap: 10em;
+  // flex-wrap: wrap;
+  // align-content: center;
+  margin: 5%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.containerweb > * {
+  flex-basis: 100%;
+  flex: 1;
+  
+}
+
+// .separate {
+//   display: flex;
+//   margin-top: 5%;
+// }
+
+.leviblok {
+  margin-right: 10%;
+  
+}
+
+.drugo {
+ 
+  flex-direction: row;
+  
+}
+
+
+
+
+.title {
+  color: var(--theme-contrast);
+  margin-bottom: mobile-vw(16px);
+
+ 
+}
+
+.titis {
+  color: var(--theme-contrast);
+}
