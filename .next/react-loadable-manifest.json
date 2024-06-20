@@ -5,10 +5,22 @@
       "static/chunks/icons_arrow-buttons_svg.js"
     ]
   },
+  "components\\explosion\\index.js -> components/explosion/Model4.js": {
+    "id": "components\\explosion\\index.js -> components/explosion/Model4.js",
+    "files": [
+      "static/chunks/components_explosion_Model4_js.js"
+    ]
+  },
   "components\\footer\\index.js -> icons/github.svg": {
     "id": "components\\footer\\index.js -> icons/github.svg",
     "files": [
       "static/chunks/icons_github_svg.js"
+    ]
+  },
+  "components\\list-item\\index.js -> icons/arrow-diagonal.svg": {
+    "id": "components\\list-item\\index.js -> icons/arrow-diagonal.svg",
+    "files": [
+      "static/chunks/icons_arrow-diagonal_svg.js"
     ]
   },
   "layouts\\default\\index.js -> components/cursor": {
@@ -65,28 +77,46 @@
       "static/chunks/node_modules_pnpm_leva_0_9_35_react-dom_18_3_1_react_18_3_1_node_modules_leva_dist_leva_esm_js.js"
     ]
   },
-  "pages\\about\\index.js -> components/horizontal-slides": {
-    "id": "pages\\about\\index.js -> components/horizontal-slides",
+  "pages\\contact\\index.js -> components/explosion": {
+    "id": "pages\\contact\\index.js -> components/explosion",
+    "files": [
+      "static/chunks/components_explosion_index_js.js"
+    ]
+  },
+  "pages\\contact\\index.js -> components/webglos": {
+    "id": "pages\\contact\\index.js -> components/webglos",
+    "files": [
+      "static/chunks/components_webglos_index_js.js"
+    ]
+  },
+  "pages\\home\\index.js -> components/feature-cards": {
+    "id": "pages\\home\\index.js -> components/feature-cards",
+    "files": [
+      "static/chunks/components_feature-cards_index_js.js"
+    ]
+  },
+  "pages\\home\\index.js -> components/horizontal-slides": {
+    "id": "pages\\home\\index.js -> components/horizontal-slides",
     "files": [
       "static/chunks/components_horizontal-slides_index_js.js"
     ]
   },
-  "pages\\about\\index.js -> components/parallax": {
-    "id": "pages\\about\\index.js -> components/parallax",
+  "pages\\home\\index.js -> components/parallax": {
+    "id": "pages\\home\\index.js -> components/parallax",
     "files": [
       "static/chunks/components_parallax_index_js.js"
     ]
   },
-  "pages\\about\\index.js -> components/webgl": {
-    "id": "pages\\about\\index.js -> components/webgl",
+  "pages\\home\\index.js -> components/webgl": {
+    "id": "pages\\home\\index.js -> components/webgl",
     "files": [
       "static/chunks/components_webgl_index_js.js"
     ]
   },
-  "pages\\services\\index.js -> components/webglos": {
-    "id": "pages\\services\\index.js -> components/webglos",
+  "pages\\home\\index.js -> icons/github.svg": {
+    "id": "pages\\home\\index.js -> icons/github.svg",
     "files": [
-      "static/chunks/components_webglos_index_js.js"
+      "static/chunks/icons_github_svg.js"
     ]
   }
 }

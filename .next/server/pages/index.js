@@ -416,17 +416,6 @@ module.exports = require("gsap/dist/ScrollTrigger");
 
 /***/ }),
 
-/***/ "gsap/dist/SplitText":
-/*!**************************************!*\
-  !*** external "gsap/dist/SplitText" ***!
-  \**************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("gsap/dist/SplitText");
-
-/***/ }),
-
 /***/ "leva":
 /*!***********************!*\
   !*** external "leva" ***!
