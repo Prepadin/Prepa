@@ -140,19 +140,19 @@ const Phrase = (() => {
         )
       })
 
-      const Phrase2 = (() => {
-        return(
+      // const Phrase2 = (() => {
+      //   return(
           
           
-          <div className={s.vision}>
-              <p>
-              based on an adaptive technological vision
-                 <span className={s.titis} >  </span>
+      //     <div className={s.vision}>
+      //         <p>
+      //         based on an adaptive technological vision
+      //            <span className={s.titis} >  </span>
                  
-              </p>
-          </div>
+      //         </p>
+      //     </div>
           
   
           
-        )
-      })
+      //   )
+      // })
