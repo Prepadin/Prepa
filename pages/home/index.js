@@ -276,7 +276,7 @@ export default function Home() {
       <section className={s.why} data-lenis-scroll-snap-align="start">
         <div className="layout-grid">
           <h2 className={cn(s.sticky, 'h2')}>
-            <AppearTitle>Why smooth scroll?</AppearTitle>
+            Why smooth scroll?
           </h2>
           <aside className={s.features} ref={whyRectRef}>
             <div className={s.feature}>
@@ -329,7 +329,7 @@ export default function Home() {
           <div className={s.highlight} data-lenis-scroll-snap-align="start">
             <Parallax speed={-0.5}>
               <p className="h2">
-                <AppearTitle>Rethinking smooth scroll</AppearTitle>
+                Rethinking smooth scroll
               </p>
             </Parallax>
           </div>
@@ -438,11 +438,11 @@ export default function Home() {
         <div className="layout-grid">
           <aside className={s.title}>
             <p className="h3">
-              <AppearTitle>
+              
                 Lenis
                 <br />
                 <span className="grey">in use</span>
-              </AppearTitle>
+              
             </p>
           </aside>
           <ul className={s.list}>
