@@ -147,8 +147,10 @@ export default function About() {
         <>
         
             <Layout className={s.home} >
-            <div>
-          <h1  className="about">About</h1>
+            <div >
+              
+          <h1  className="about">ABOUT</h1>
+         {/* <div className={s.about}> ABOUT</div> */}
         </div>
          <div className={s.canvas}>
         <WebGL />

@@ -46,7 +46,7 @@
       align-self: start;
       display: flex;
       flex-direction: column;
-
+      margin-top: 4rem;
       @include desktop {
         text-align: end;
         grid-column: 9 / span 4;

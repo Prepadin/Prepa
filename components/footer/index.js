@@ -30,20 +30,20 @@ export const Footer = () => {
           icon={<GitHub />}
           href="https://github.com/studio-freight/lenis"
         >
-          Let's build together
+          Let's make greate work together
         </Button>
       </div>
       <div className={cn(s.top, 'layout-block hide-on-desktop')}>
         <div className={s['shameless-plug']}>
-          <p className="h4">Studio Freight</p>
+          <p className="h4">Prepad</p>
           <p className="p-s">
             An independent creative <br /> studio built on principle
           </p>
         </div>
         <p className={cn(s['first-line'], 'h1')}>
-          Lenis is <br />
-          <span className="contrast">Open source</span>
-          <br /> & open to <br /> features, forks or prs
+          Prepad is <br />
+          <span className="contrast">Digital studio</span>
+          
         </p>
       </div>
       <div className={s.bottom}>
@@ -77,7 +77,7 @@ export const Footer = () => {
           </Link>
         </div>
         <p className={cn('p-xs', s.tm)}>
-          <span>©</span> {new Date().getFullYear()} Studio Freight
+          <span>©</span> {new Date().getFullYear()} Prepad
         </p>
         <Button
           className={cn(s.cta, 'hide-on-desktop')}
@@ -85,7 +85,7 @@ export const Footer = () => {
           icon={<GitHub />}
           href="https://github.com/studio-freight/lenis"
         >
-          Let's build together
+          Let's make work together
         </Button>
       </div>
     </footer>

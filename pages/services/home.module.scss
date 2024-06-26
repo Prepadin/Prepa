@@ -273,8 +273,9 @@ $intro-duration: 2050ms;
 
   .sticky {
     grid-column: 1 / -1;
-
+    
     @include desktop {
+      
       position: sticky;
       top: 33%;
       align-self: start;
@@ -284,7 +285,7 @@ $intro-duration: 2050ms;
     }
   }
 
- 
+
 
 
 

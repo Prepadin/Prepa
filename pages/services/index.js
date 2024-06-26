@@ -156,10 +156,12 @@ export default function Services ()  {
          <div style={{height: "50vh"}}></div>
         <div className={s.containerweb}>
           <div id='firstCircle' className='prvo'>
-          <h2 className={cn(s.sticky, 'h3')}>
+          <div className={s.redos}>
+            <h2 className={cn(s.sticky, 'h3')}>
           DESIGN
-            </h2>          
-        </div>
+            </h2>
+          </div>          
+           </div>
         <div className='drugo'>
         <div>
         <p className="p">
@@ -169,7 +171,7 @@ export default function Services ()  {
           <div>
         <div className={s.separate}>
           <div className={s.leviblok}>
-            <div>
+            <div >
             <h3 className={cn(s.title, 'h5')}>
               Animation
               </h3>
@@ -215,9 +217,11 @@ export default function Services ()  {
         <div style={{height: "10vh"}}></div>
         <div className={s.containerweb}>
           <div id="thirdCircle" className='prvo'>
+          <div className={s.redos}>
           <h2 className={cn(s.sticky, 'h3')}>
           development
             </h2>          
+            </div>
         </div>
         <div className='drugo'>
         <div>
@@ -274,9 +278,11 @@ export default function Services ()  {
         <div style={{height: "10vh"}}></div>
         <div className={s.containerweb}>
           <div id='secondCircle' className='prvo'>
+          <div className={s.redos}>
           <h2 className={cn(s.sticky, 'h3')}>
-          Content
+           Content
             </h2>          
+        </div>
         </div>
         <div className='drugo'>
         <div>
