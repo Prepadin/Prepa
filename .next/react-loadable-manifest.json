@@ -5,12 +5,6 @@
       "static/chunks/icons_arrow-buttons_svg.js"
     ]
   },
-  "components\\explosion\\index.js -> components/explosion/Model4.js": {
-    "id": "components\\explosion\\index.js -> components/explosion/Model4.js",
-    "files": [
-      "static/chunks/components_explosion_Model4_js.js"
-    ]
-  },
   "components\\footer\\index.js -> icons/github.svg": {
     "id": "components\\footer\\index.js -> icons/github.svg",
     "files": [
@@ -69,18 +63,6 @@
     "id": "pages\\_app.js -> leva",
     "files": [
       "static/chunks/node_modules_pnpm_leva_0_9_35_react-dom_18_3_1_react_18_3_1_node_modules_leva_dist_leva_esm_js.js"
-    ]
-  },
-  "pages\\contact\\index.js -> components/explosion": {
-    "id": "pages\\contact\\index.js -> components/explosion",
-    "files": [
-      "static/chunks/components_explosion_index_js.js"
-    ]
-  },
-  "pages\\contact\\index.js -> components/webglos": {
-    "id": "pages\\contact\\index.js -> components/webglos",
-    "files": [
-      "static/chunks/components_webglos_index_js.js"
     ]
   },
   "pages\\front\\index.js -> /components/rock": {
