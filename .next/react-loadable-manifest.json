@@ -71,24 +71,6 @@
       "static/chunks/node_modules_pnpm_leva_0_9_35_react-dom_18_3_1_react_18_3_1_node_modules_leva_dist_leva_esm_js.js"
     ]
   },
-  "pages\\about\\index.js -> components/horizontal-slides": {
-    "id": "pages\\about\\index.js -> components/horizontal-slides",
-    "files": [
-      "static/chunks/components_horizontal-slides_index_js.js"
-    ]
-  },
-  "pages\\about\\index.js -> components/parallax": {
-    "id": "pages\\about\\index.js -> components/parallax",
-    "files": [
-      "static/chunks/components_parallax_index_js.js"
-    ]
-  },
-  "pages\\about\\index.js -> components/webgl": {
-    "id": "pages\\about\\index.js -> components/webgl",
-    "files": [
-      "static/chunks/components_webgl_index_js.js"
-    ]
-  },
   "pages\\contact\\index.js -> components/explosion": {
     "id": "pages\\contact\\index.js -> components/explosion",
     "files": [
@@ -101,20 +83,14 @@
       "static/chunks/components_webglos_index_js.js"
     ]
   },
-  "pages\\home\\index.js -> /components/rock": {
-    "id": "pages\\home\\index.js -> /components/rock",
+  "pages\\front\\index.js -> /components/rock": {
+    "id": "pages\\front\\index.js -> /components/rock",
     "files": [
       "static/chunks/components_rock_index_js.js"
     ]
   },
-  "pages\\home\\index.js -> components/webglos": {
-    "id": "pages\\home\\index.js -> components/webglos",
-    "files": [
-      "static/chunks/components_webglos_index_js.js"
-    ]
-  },
-  "pages\\services\\index.js -> components/webglos": {
-    "id": "pages\\services\\index.js -> components/webglos",
+  "pages\\front\\index.js -> components/webglos": {
+    "id": "pages\\front\\index.js -> components/webglos",
     "files": [
       "static/chunks/components_webglos_index_js.js"
     ]

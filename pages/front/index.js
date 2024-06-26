@@ -89,20 +89,20 @@ const Slider1 = (({progress, direction}) => {
    )
 }) 
 
-// const Slider3 = (({progress, direction}) => {
-//     const dir = direction == "left" ? -1 : 1;
-//     const x = useTransform(progress, [0, 1], [-350 * dir, 150 * dir])
-//     return (
-//     <motion.div className={s.vision2} style={{x}}>
+const Slider3 = (({progress, direction}) => {
+    const dir = direction == "left" ? -1 : 1;
+    const x = useTransform(progress, [0, 1], [-350 * dir, 150 * dir])
+    return (
+    <motion.div className={s.vision2} style={{x}}>
 
-//     <Phrase2/> 
+    <Phrase2/> 
     
     
 
-//     </motion.div>
-//    )
+    </motion.div>
+   )
 
-// }) 
+}) 
 
 
 const Phrase = (() => {
@@ -140,19 +140,19 @@ const Phrase = (() => {
         )
       })
 
-      // const Phrase2 = (() => {
-      //   return(
+      const Phrase2 = (() => {
+        return(
           
           
-      //     <div className={s.vision}>
-      //         <p>
-      //         based on an adaptive technological vision
-      //            <span className={s.titis} >  </span>
+          <div className={s.vision}>
+              <p>
+              based on an adaptive technological vision
+                 <span className={s.titis} >  </span>
                  
-      //         </p>
-      //     </div>
+              </p>
+          </div>
           
   
           
-      //   )
-      // })
+        )
+      })

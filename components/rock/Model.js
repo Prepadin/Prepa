@@ -6,7 +6,7 @@ import { useControls } from 'leva'
 export default function Model() {
     
     const mesh = useRef()
-    const { nodes } = useGLTF("./headerrock.glb")
+    const { nodes } = useGLTF("./headerrock1.glb")
     const { viewport } = useThree();
 
 
